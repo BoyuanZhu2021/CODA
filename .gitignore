@@ -1,0 +1,75 @@
+# =============================================================
+# Secrets and credentials
+# =============================================================
+.env
+api_keys.txt
+*.key
+
+# =============================================================
+# Experiment outputs (large, machine-specific, reproducible)
+# =============================================================
+logs/
+results/
+
+# =============================================================
+# Third-party datasets (not ours to redistribute)
+# =============================================================
+video_transcriptions/*.json
+
+# =============================================================
+# Model weights and HuggingFace caches (large binaries)
+# =============================================================
+models/*.pt
+models/*.pkl
+models/paraphrase-multilingual-MiniLM-L12-v2/
+models/xlm-roberta-base/
+models/transformer_classifier/
+models/classifier_comparison_results.json
+
+# =============================================================
+# Working paper (not for public release)
+# =============================================================
+latex_paper/
+
+# =============================================================
+# Personal notes, scratch files, and reference papers
+# =============================================================
+progress/
+reference/
+temp.txt
+quick_commands.txt
+download_configs.py
+
+# =============================================================
+# Test samples (copyrighted video content)
+# =============================================================
+test_samples/
+
+# =============================================================
+# Python
+# =============================================================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# =============================================================
+# OS files
+# =============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================
+# IDE
+# =============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
