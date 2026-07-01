@@ -64,13 +64,13 @@ Place the generated JSON files here:
 ```
 video_transcriptions/
 ├── README.md              (this file)
-├── fakesv_1082videos.json
-└── fakett_1089videos.json
+├── YOUR_FILE.json
+└── YOUR_FILE.json
 ```
 
 Then update the paths in `config.py` if your filenames differ:
 
 ```python
-FAKESV_PATH = "video_transcriptions/fakesv_1082videos.json"
-FAKETT_PATH = "video_transcriptions/fakett_1089videos.json"
+FAKESV_PATH = "video_transcriptions/YOUR_FILE.json"
+FAKETT_PATH = "video_transcriptions/YOUR_FILE.json"
 ```
