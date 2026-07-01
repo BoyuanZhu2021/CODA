@@ -1,11 +1,5 @@
 # CODA: Content-Adaptive Escalation for Web-Grounded, Language-Aware Misinformation Verification
 
-Official implementation for the paper:
-
-> **CODA: Cognitive Orchestration of Detection Agents for Multimodal Misinformation**
-> 
-> *WISE 2026*
-
 ## Overview
 
 CODA is an adaptive multi-agent framework for detecting misinformation in short videos. Inspired by dual-process theory in cognitive science, CODA coordinates specialized LLM-based agents via a Directed Acyclic Graph (DAG) to adaptively determine analysis depth based on content complexity.
