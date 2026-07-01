@@ -1,10 +1,10 @@
-# CODA: Cognitive Orchestration of Detection Agents for Multimodal Misinformation
+# CODA: Content-Adaptive Escalation for Web-Grounded, Language-Aware Misinformation Verification
 
 Official implementation for the paper:
 
 > **CODA: Cognitive Orchestration of Detection Agents for Multimodal Misinformation**
-> Boyuan Zhu, Zhen Wang, Haiqiang Fei, Hong Li, Hongsong Zhu
-> *ACM Multimedia 2026 (MM '26)*
+> 
+> *WISE 2026*
 
 ## Overview
 
